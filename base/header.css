@@ -62,7 +62,7 @@
     /* Backgrounds */
     --color-background: var(--color-white);
     --color-background-secondary: var(--color-gray-50);
-    --color-surface: var(--color-white);
+    --color-surface: var(--color-black);
     --color-surface-elevated: var(--color-white);
     --color-surface-secondary: var(--color-gray-100);
     
@@ -361,7 +361,7 @@
     left: 0;
     right: 0;
     height: var(--header-height);
-    background: black;
+    background: var(--color-surface);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdfrop-filter: blur(20px) saturate(180%);
     border-bottom: 1px solid var(--color-border);
